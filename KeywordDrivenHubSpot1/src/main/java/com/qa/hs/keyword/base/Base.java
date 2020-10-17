@@ -13,7 +13,7 @@ public class Base {
 public WebDriver driver;
 public Properties prop;
 public WebDriver init_driver(String browserName) {
-	//if class
+	
 	if(browserName.equals("chrome"))
 	{
 	System.setProperty("webdriver.chrome.driver", "D:\\chromedriver_win32_2\\chromedriver.exe");
